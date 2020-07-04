@@ -1,0 +1,262 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>Wesley R.</title>
+            <meta charset="utf-8">
+            <meta lang="pt-br">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style type="text/css">
+                    body{
+                    margin:0;
+                    padding:0;
+                    box-sizing:border-box;
+                    background-color:black;
+                    }
+                    .embrulho{
+                        width: 100%;
+
+                    }
+
+                    header{
+                        height:100%;
+                        width:100%;
+                        background-color: black;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 500;
+                        color: rgb(172, 172, 246);
+                        justify-content: center;
+                    }
+                    #nav-bar{
+                        height: fit-content;
+                        width: 100%;
+                        display:flex;
+                        flex-direction: row;
+                        margin: 0 auto;
+                        justify-content:center;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: large;
+                        font-weight: bold;
+                        padding: 15px;
+                    }
+                    .botão{
+                        color: white;
+                        background-color: rgb(172, 172, 246);
+                        padding: 40px;
+                        display: inline-block;
+                        width: 112px;
+                        height: 21px;
+                        text-align: center;
+                    }
+                    .botão:hover{
+                        color:  rgb(172, 172, 246);
+                        background-color: white;
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                    .fototop{
+                        text-align: center;
+                    }
+                    h2{
+                        top: 500px;
+                        left: 610px;
+                        display: inline-block;
+                    }
+                    #profile-pic{
+                        width: 300px;
+                        height: 300px;
+                        display: inline-block;
+                        align-content: center;
+                        shape-outside: circle();
+                        clip-path:circle();
+                    }
+                    #apresentação{
+                        height: 100%;
+                        color: rgb(172, 172, 246);
+                        display: flex;
+                        font-family:'Roboto', sans-serif;
+                        font-size:19px;
+                        padding:15px;
+                    }
+                    #apres-pic{
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .apres-pic{
+                        width:40% ;
+                        height: 100%;
+                    }
+                    .text-apres{
+                        display: inline-block;
+                        width: fit-content;
+                        height: fit-content;
+                        padding-top: 150px;
+                        color: rgb(172, 172, 246);
+                        font-size: 19px;
+                        font-family:'Roboto', sans-serif;
+                        padding-top: 160px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                    }
+                    #grad{
+                        height:800px;
+                        width: fit-content;
+                        background-image: linear-gradient(to right, rgba(255,0,0,0),black); 
+                    }
+                    #dev-pro{
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    #dino{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    #dino-div{
+                        width: 100%;
+                        height:100%;
+                        display: inline-block;
+                    }
+                    #exp{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    #interest{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    #int-pic{
+                        width: fit-content;
+                        height: fit-content;
+                        display: inline-block;
+                        padding-left: 90px;
+                    }
+
+                    footer{
+                        width: 100%;
+                        height: fit-content;
+                        background-color:  rgb(172, 172, 246);
+                        display: flex;
+                        flex-direction: row;
+                        border: 10px;
+                    }
+                    #footerflex{
+                        display: flex;
+                        margin: 0 auto;
+                        justify-content: center;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: large;
+                    }
+                    #face-icon{
+                        height: 56px;
+                    }
+                    #insta-icon{
+                        height: 60px;
+                    }
+                    .link{
+                        padding: 30px;
+                    }
+                
+            </style>
+        </head>
+        <body>
+            <div class="embrulho"> <!--COLOQUEI EM UM "embrulho" pq fica mais facial para ajustar a outros dispositivos-->
+                <header>
+                    <nav id="nav-bar">   <!--aqui vai a barra de navegação do site, usar flexbox e lista--> 
+                        <div class="botão"><a href="#apresentação">Apresentação</a></div>
+                            
+                        <div class="botão"><a href="#dev-pro">Motivação</a></div>
+
+                        <div class="botão"><a href="#exp">Experiência</a></div>
+
+                        <div class="botão"><a href="#interest">Interesses</a></div>
+
+                        <div class="botão"><a href="#footerflex">Contato</a></div>
+
+                        
+                    </nav>
+
+                    <div class="fototop">
+                        <img src="img/eu.jpg" id="profile-pic"> </br>
+                        <h2>Wesley Rodrigues</h2>
+                    </div>
+                </header>
+                <section id="apresentação">
+                    <div class="text-apres">
+                        <h3>---APRESENTAÇÃO---</h3>
+                        <b>
+                        <p>Olá, eu sou Wesley Rodrigues da Silva</p>
+                        <p>Eu sou um estudante do Curso de técnologia em Análise e desenvolvimento de sistemas na <a href="https://www.univali.br/">UNIVALI(Universidade do Vale do Itajaí)</a></p>
+                        <p>Nasci dia 09/06 no ano 2000 na cidade de Santos-SP </p>
+                        <p>Vivo em Balneário Piçarras, uma cidadesinha de 20.000 habitantes no meio do litoral norte de Santa Catarina</p>
+                        </b>
+                    </div>
+                    <div class="apres-pic">
+                        <img src="img/IMG_20200613_023851.jpg" id="apres-pic">
+                    </div>
+
+                </section>
+                <section id="dev-pro">
+                    <div class="text-apres">
+                        <h3>???Por quê Tecnologia???</h3>
+                        <b>
+                        <p>- A minha curiosidade pelo desenvolvimento de sistemas começou nos Animes e 
+                            filmes com temas Ciberpunk em que a realidade toda gira
+                            em torno da técnologia, com um pouco mais idade percebi que nós já vivemos esse tipo de cenário
+                            porém um pouco menos lúdico, apesar de ainda conceguirmos desenvolvermos muitas coisas apartir da ficção, 
+                            então escolhi estudar o curso de análise e desenvolvimento de sistemas
+                            pra poder desenvolver programas, máquinas, aplicativos que possam ajudar a humanidade a alcançar 
+                            o seu melhor em produtividade, criação e até mesmo diversão (tipo a alita, Major do ghost in the shell ou até mesmo a cortana... 
+                            a do Hallo, não a do windows ).
+                        </p>
+                        </b>
+                    </div>
+                    <div id="dino-div">
+                        <img src="img/WhatsApp Image 2020-06-11 at 19.32.36 (1).jpeg" id="dino">
+                    </div>
+
+                </section>
+                <section id="exp">
+                    <div class="text-apres">
+                        <h3>***Expreriências***</h3>
+                        <p>
+                        - Mediador (Museu Oceanográfico UNIVALI)<br>
+                        - Designer gráfico<br>
+                        - Auxiliar de padeiro<br>
+                        - Atendente<br>
+                        - Barista<br>
+                        Gosto de trabalhar em áreas diferentes e aprender coisas novas...
+                        </p>
+                    </div>
+
+                </section>
+                <section id="interest">
+                    <div class="text-apres">
+                        <h3>***Interesses***</h3>
+                        <p>
+                            - Ciêcias biológicas<br>
+                            - Música<br>
+                            - Viajens espácias (fan da SpaceX)<br>
+                            - Agricultura vertical<br>
+                            - Desenvolvimento da Inteligência Artificial<br>
+                        </p>
+                    </div>
+                    <div id="int-pic">
+                        <img src="img/giphy.gif">
+                    </div>
+                </section>
+
+                <footer id="footerflex"><!--aqui vai ser usado tbm a flexbox-->
+                
+                    <div class="link"><img src="img/instagram-brands.svg" alt="Insta" id="insta-icon"><br><a href="https://www.instagram.com/wesley.rodrigues.sil/">Instagram</a></div>
+                    <div class="link"><img src="img/facebook-f-brands.svg" alt="Face" id="face-icon"><br><a href="https://www.facebook.com/wesley.rodrigues.12139862">Facebook</a></div>
+                    <div class="link"><img src="img/github-alt-brands.svg" alt="Github"><br><a href="https://github.com/wesley-lico">Github</a></div>
+                    <div class="link"><img src="img/google-brands.svg" alt="Gmail"><br><a href="wesleyrs2006@gmail.com">Gmail</a></div>
+                </footer>
+            </div>
+            
+        </body>
+    </html>
